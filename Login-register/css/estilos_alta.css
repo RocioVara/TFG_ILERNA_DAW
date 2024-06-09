@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+
+}
+
+body {
+    background-color: #E3E3E3;
+    font-family: 'Open Sans', sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+font-size: 40px;
+margin-top: 30px;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    background-color: #fff;
+    padding: 40px;
+    font-weight: bold;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: large;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 3px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+}
+
+input[type="submit"] {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #46A2FD; /* Azul para el botón de Registrar usuario */
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #368AC6;
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 10px 5px;
+    font-size:large;
+    color: #fff;
+    background-color: #55a27c; 
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background-color: #82b182;
+}
+
+.botones-extra {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    
+}
+
+.botones-extra a {
+    margin: 0 10px;
+}

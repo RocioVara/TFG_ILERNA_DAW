@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+    <link rel="stylesheet" href="../estilos.css"> <!-- Ajusta la ruta según la ubicación de tu archivo CSS -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="encabezado">
+        <div class="logo">
+            <img src="../logo.png" alt="Logo">
+        </div>
+    </header>
+    <main>
+        <h1>Registro</h1>
+        <form id="registroForm" action="../php/registro_usuario_be.php" method="POST">
+            <input type="text" id="nombre_completo" name="nombre_completo" placeholder="Nombre completo" required>
+            <span class="error-message" id="nombreCompletoError" style="color:red; display:none;">Este campo es obligatorio</span>
+            <input type="email" id="correo" name="correo" placeholder="Correo electrónico" required>
+            <span class="error-message" id="correoError" style="color:red; display:none;">Este campo es obligatorio</span>
+            <input type="text" id="usuario" name="usuario" placeholder="Usuario" required>
+            <span class="error-message" id="usuarioError" style="color:red; display:none;">Este campo es obligatorio</span>
+            <div class="password-container">
+                <input type="password" id="contrasena" name="contrasena" placeholder="Contraseña" required>
+                <span class="error-message" id="contrasenaError" style="color:red; display:none;">Este campo es obligatorio</span>
+                <span class="toggle-password">
+                    <i class="fas fa-eye"></i>
+                </span>
+            </div>
+            <button type="submit">Registrar</button>
+        </form>
+    </main>
+    <script src="../js/validaciones.js"></script> <!-- Enlace al archivo de validaciones -->
+</body>
+</html>

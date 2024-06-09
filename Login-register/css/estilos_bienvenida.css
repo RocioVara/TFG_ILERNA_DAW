@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+}
+
+body {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #333;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #333;
+    margin: 20px 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.encabezado .logo-centrado {
+    margin-top: 50px;
+}
+
+.encabezado .logo-centrado img {
+    max-width: 200px;
+}
+
+
+main {
+    margin-top: 90px; 
+}
+
+.contenedor {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    font-weight: bold;
+
+}
+
+.boton {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #55a27c;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background-color: #82b182;
+}
+
+.boton-cerrar-sesion {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 10px;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #46A2FD;
+    border: none;
+    border-radius: 20px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.boton-cerrar-sesion:hover {
+    background-color: #368AC6;
+}
+
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #55a27c;
+    color: #fff;
+    text-transform: uppercase;
+
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+.actions {
+    text-align: center;
+}
+
+.boton-accion {
+    padding: 5px 10px;
+    font-size: 0.9rem;
+    margin: 0 5px;
+}
+
+.boton-accion.borrar {
+    background-color: #e74c3c;
+}
+
+.boton-accion.borrar:hover {
+    background-color: #c0392b;
+}
+
+.boton-accion.modificar {
+    background-color: #46A2FD;
+}
+
+.boton-accion.modificar:hover {
+    background-color: #368AC6;
+}
+
+.contenedor-cerrar-sesion {
+    margin-top: 20px;
+}
